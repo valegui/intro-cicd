@@ -4,18 +4,31 @@ from dataclasses import dataclass
 
 @dataclass
 class HotBeverage(ABC):
+    """Abstract class to prepare hot beverages
+
+    Parameters
+    ----------
+    temperature : `float`, optional
+        Temperature at which the hot beverage is prepared.
+    """
+
     temperature: float = 100.0
+    """Temperature at which the hot beverage is prepared.
+    """
 
     def prepare_recipe(self):
+        """Prepares the hot beverage"""
         self.boil_water()
         self.brew()
         self.pour()
         self.add_extras()
 
     def boil_water(self):
+        """Boils water"""
         print("Boiling water")
 
     def pour(self):
+        """Pours beverage into cup"""
         print("Pour into cup")
 
     @abstractmethod
