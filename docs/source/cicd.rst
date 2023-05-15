@@ -468,8 +468,3 @@ Usan EventListener, TriggerBinding y TriggerTemplate.
              value: $(tt.params.repository) # este viene de la seccion params de TriggerTemplate
            - name: branch
              value: $(tt.params.branch)
-
-
-
-Tekton en AWS
-^^^^^^^^^^^^^
