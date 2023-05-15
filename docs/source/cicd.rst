@@ -225,7 +225,7 @@ jobs en un stage es en paralelo.
 
        "Pipeline" [shape=box]
        "Stage" [shape=box]
-       "Jobs" [shape=ellipse]
+       "Jobs" [shape=box]
        "Script" [shape=box]
 
        { rank=same "Pipeline" "Stage" "Jobs" "Script"}
