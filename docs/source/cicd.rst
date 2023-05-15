@@ -212,7 +212,7 @@ Costos
 Para mas detalles de costos y tiempos, ver 
 `About billing for GitHub Actions <https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions>`_.
 
-Diferencia con GitLab CI/CI
+Diferencia con GitLab CI/CD
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 GitLab CI se define en un archivo .gitlab-ci.yaml
 En gitlab se define un pipeline. Un pipeline se compone de Jobs independientes que ejecutan 
